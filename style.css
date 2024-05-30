@@ -1,0 +1,30 @@
+body{
+    background-image: url("city1.jpg");
+    background-size: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30vh;
+}
+
+form{
+    background-color: rgba(71, 199, 156, 0.452);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    padding: 100px;
+    border-radius: 25px;
+    border: solid 2px #3e65d18a;
+}
+input{
+    margin-bottom: 25px;
+}
+@media (max-width: 720px)  {
+    body {
+        background-image: url("city2.jpg");
+    }
+}
