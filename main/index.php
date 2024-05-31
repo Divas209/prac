@@ -11,8 +11,19 @@
         <div class ="con1">d</div>
     </div>
     <div class = "cont_right">
-        <div class = "con2">d</div>
+        <div class = "con2">
+            <div class = "toolbar_l">
+                <div class ="toolbar_item">dsa</div>
+                <div class ="toolbar_item">dsa</div>
+                <div class ="toolbar_item">dsa</div>
+                <div class ="toolbar_item">dsa</div>
+            </div>
+            <div class = "toolbar_r">
+
+            </div>
+        </div>
         <div class = "con3">d</div>
+        <div class = "con4">d</div>
     </div>
 </body>
 </html>

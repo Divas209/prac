@@ -12,13 +12,28 @@ body{
     background-color:rgb(206, 148, 25);
 }
 .con2{
-    background-color: aliceblue;
-    height: 70vh;
+    background-color: rgb(33, 224, 151);
+    height: 5%;
+    width: 80vw;
+    display: flex;
 }
 .con3{
+    background-color: aliceblue;
+    height: 65vh;
+    width: 80vw;
+}
+.con4{
     background-color: aqua;
     border: 5px;
     border-color: blue;
     height: 30vh;
     width: 80vw;
+}
+.toolbar_l{
+    display: flex;
+    align-items: center;
+    width: 40vw;
+}
+.toolbar_l{
+    display: flex;
 }
