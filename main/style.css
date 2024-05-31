@@ -37,3 +37,22 @@ body{
 .toolbar_l{
     display: flex;
 }
+.toolbar_r{
+    background-color: brown;
+    padding-right: 2vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40vw;
+}
+
+.toolbar_item_menu:hover{
+    background-color: blue;
+    z-index: 1;
+}
+.menu_bar{
+    background-color: rgb(36, 115, 139);
+    
+    z-index: 2;
+}
