@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    margin: 0px;
+}
+
+.cont_left{
+    width: 20vw;
+    height: 100vh;
+    background-color: aqua;
+}
+.con1{
+    background-color:rgb(206, 148, 25);
+}
+.con2{
+    background-color: aliceblue;
+    height: 70vh;
+}
+.con3{
+    background-color: aqua;
+    border: 5px;
+    border-color: blue;
+    height: 30vh;
+    width: 80vw;
+}
