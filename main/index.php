@@ -19,11 +19,24 @@
                 <div class ="toolbar_item_l">dsa</div>
             </div>
             <div class = "toolbar_r">
-                <div class ="toolbar_item_menu">dsa</div>
-                <div class = "menu_bar"></div>
+                <div class ="toolbar_item_menu">меню</div>
             </div>
         </div>
-        <div class = "con3">d</div>
+        <div class = "con3">
+            <div class = "te">
+                dasd
+                dasdsada
+                adf
+            </div>
+
+            <div class = "menu_bar">
+                <form action="">
+                    <input type="button" value="перерыв">
+                    <input type="button" value="уход">
+                </form>
+            </div>
+
+        </div>
         <div class = "con4">d</div>
     </div>
 </body>
