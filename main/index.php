@@ -16,7 +16,7 @@
         document.getElementById('menu_bar').style.visibility = 'hidden';
     }
     function rechangeItem() {
-        setTimeout(tm, 1000);
+        setTimeout(tm, 3000);
     }
 
 
@@ -33,7 +33,7 @@
                 <div class ="toolbar_item_l">dsa</div>
                 <div class ="toolbar_item_l">dsa</div>
             </div>
-            <div class = "toolbar_r"'>
+            <div class = "toolbar_r">
                 <div class ="toolbar_item_menu" id = "toolbar_item_menu" onmouseover="changeItem()" onmouseout="rechangeItem()">меню</div>
             </div>
         </div>
@@ -44,7 +44,7 @@
                 adf
             </div>
 
-            <div class = "menu_bar" id = "menu_bar" onmouseover="changeItem()" onmouseout="rechangeItem()">
+            <div class = "menu_bar" id = "menu_bar">
                 <form action="">
                     <input type="button" value="перерыв">
                     <input type="button" value="уход">
