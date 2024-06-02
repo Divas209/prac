@@ -14,6 +14,5 @@
         <input type="text">
         <input type="button" value="войти">
     </form>
-    
 </body>
 </html>
