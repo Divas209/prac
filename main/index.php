@@ -28,10 +28,13 @@
     <div class = "cont_right">
         <div class = "con2">
             <div class = "toolbar_l">
-                <div class ="toolbar_item_l">dsa</div>
-                <div class ="toolbar_item_l">dsa</div>
-                <div class ="toolbar_item_l">dsa</div>
-                <div class ="toolbar_item_l">dsa</div>
+                <form action="" class ="toolbar_item_l_date">
+                    <input type="text" value="фио">
+                    <div class ="toolbar_item_l"><input type="date"></div>
+                    по
+                    <div class ="toolbar_item_l"><input type="date"></div>
+                    <input type="submit" value = "найти">
+                </form>
             </div>
             <div class = "toolbar_r">
                 <div class ="toolbar_item_menu" id = "toolbar_item_menu" onmouseover="changeItem()" onmouseout="rechangeItem()">меню</div>
@@ -45,9 +48,9 @@
             </div>
 
             <div class = "menu_bar" id = "menu_bar">
-                <form action="">
-                    <input type="button" value="перерыв">
-                    <input type="button" value="уход">
+                <form action="" class = "out_buttons">
+                    <input type="button" class ="out_button_item" value="перерыв">
+                    <input type="button" class ="out_button_item" value="уход">
                 </form>
             </div>
 

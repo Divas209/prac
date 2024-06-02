@@ -70,3 +70,14 @@ body{
     background-color: black;
     /* visibility: visible; */
 }
+.out_buttons{
+    height: 100%;
+    width: 100%;
+}
+.out_button_item{
+    height: 50%;
+    width: 100%;
+}
+.toolbar_item_l_date{
+    display: flex;
+}
