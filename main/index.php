@@ -18,8 +18,6 @@
     function rechangeItem() {
         setTimeout(tm, 3000);
     }
-
-
 </script>
 <body>
     <div class = "cont_left">
