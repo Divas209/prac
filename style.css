@@ -10,7 +10,7 @@ body{
 }
 
 form{
-    background-color: rgba(71, 199, 156, 0.452);
+    background-color: rgba(71, 169, 199, 0.452);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,6 +21,8 @@ form{
     border: solid 2px #3e65d18a;
 }
 input{
+    border-radius: 25px;
+    border: solid 2px #3e65d18a;
     margin-bottom: 25px;
 }
 @media (max-width: 720px)  {

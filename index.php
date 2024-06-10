@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="">
+    <form action="singin.php">
+        <img src="logo.svg" alt="">
         логин
-        <input type="text">
+        <input type="text" name = "name">
         пароль
-        <input type="text">
-        <input type="button" value="войти">
+        <input type="text" name = "password">
+        <input type="submit" value="войти">
     </form>
 </body>
 </html>

@@ -22,10 +22,9 @@
 <body>
     
     <div class = "cont_left">
-        <div class ="con1">d</div>
         <?php
             require_once 'conn.php';
-            $sql = "SELECT 'name', 'surename' FROM 'user'";
+            $sql = "SELECT * FROM user";
             $res = mysqli_query($connect, $sql);
             if($res == false){
                 echo "no";
@@ -66,6 +65,9 @@
 
         </div>
         <div class = "con4">
+            <?php 
+                echo $_SESSION['user'];
+            ?>
             ds
         </div>
     </div>
