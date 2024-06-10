@@ -4,11 +4,14 @@ body{
 }
 
 .cont_left{
+    overflow: scroll;
     width: 20vw;
     height: 100vh;
     background-color: aqua;
 }
 .con1{
+    height: 5%;
+    width: 100%;
     background-color:rgb(206, 148, 25);
 }
 .con2{
@@ -30,6 +33,7 @@ body{
     height: 30vh;
     width: 80vw;
 }
+
 .toolbar_l{
     display: flex;
     align-items: center;

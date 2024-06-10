@@ -20,8 +20,20 @@
     }
 </script>
 <body>
+    
     <div class = "cont_left">
         <div class ="con1">d</div>
+        <?php
+            require_once 'conn.php';
+            $sql = "SELECT 'name', 'surename' FROM 'user'";
+            $res = mysqli_query($connect, $sql);
+            if($res == false){
+                echo "no";
+            }
+            while($row = mysqli_fetch_array($res)){
+                echo '<div class ="con1">'.$row['name'].' '.$row['surename'].'</div>';
+            }
+        ?>
     </div>
     <div class = "cont_right">
         <div class = "con2">
@@ -54,7 +66,7 @@
 
         </div>
         <div class = "con4">
-            d
+            ds
         </div>
     </div>
 </body>
