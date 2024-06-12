@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="singin.php">
+    <form action="singin.php" method="post">
         <img src="logo.svg" alt="">
         логин
         <input type="text" name = "name">

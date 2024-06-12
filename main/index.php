@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -66,7 +70,9 @@
         </div>
         <div class = "con4">
             <?php 
-                echo $_SESSION['user'];
+                echo 'seesion'.$_SESSION['user'];
+                session_unset();
+                session_destroy();
             ?>
             ds
         </div>
