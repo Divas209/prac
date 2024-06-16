@@ -41,11 +41,15 @@
     <div class = "cont_right">
         <div class = "con2">
             <div class = "toolbar_l">
-                <form action="" class ="toolbar_item_l_date">
+                <form action="dop.php" method ="post" class ="toolbar_item_l_date">
                     <input type="text" value="фио">
-                    <div class ="toolbar_item_l"><input type="date"></div>
+                    <div class ="toolbar_item_l">
+                        <input type="date" name="do">
+                    </div>
                     по
-                    <div class ="toolbar_item_l"><input type="date"></div>
+                    <div class ="toolbar_item_l">
+                        <input type="date" name="posle">
+                    </div>
                     <input type="submit" value = "найти">
                 </form>
             </div>
@@ -71,8 +75,8 @@
         <div class = "con4">
             <?php 
                 echo 'seesion'.$_SESSION['user'];
-                session_unset();
-                session_destroy();
+                // session_unset();
+                // session_destroy();
             ?>
             ds
         </div>

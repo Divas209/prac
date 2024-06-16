@@ -1,0 +1,48 @@
+body{
+    background-image: url("city1.jpg");
+    background-size: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30vh;
+}
+
+.stat{
+    background-color: rgba(71, 169, 199, 0.452);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    padding: 100px;
+    border-radius: 25px;
+    border: solid 2px #3e65d18a;
+}
+.text1{
+    padding-left: 7px;
+    padding-right: 7px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 25px;
+    border: solid 2px #3e65d18a;
+    margin-bottom: 25px;
+}
+.text2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;   
+}
+input{
+    border-radius: 25px;
+    border: solid 2px #3e65d18a;
+}
+@media (max-width: 720px)  {
+    body {
+        background-image: url("city2.jpg");
+    }
+}
