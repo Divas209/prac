@@ -12,7 +12,7 @@ body{
 .con1{
     height: 5%;
     width: 100%;
-    background-color:rgb(206, 148, 25);
+    /* background-color:rgb(206, 148, 25); */
 }
 .con2{
     background-color: rgb(33, 224, 151);
@@ -29,7 +29,7 @@ body{
 .con4{
     background-color: aqua;
     border: 5px;
-    border-color: blue;
+    /* border-color: blue; */
     height: 30vh;
     width: 80vw;
 }
@@ -43,7 +43,7 @@ body{
     display: flex;
 }
 .toolbar_r{
-    background-color: brown;
+    /* background-color: brown; */
     padding-right: 2vw;
     display: flex;
     align-items: flex-end;

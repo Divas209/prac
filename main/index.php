@@ -59,9 +59,7 @@
         </div>
         <div class = "con3">
             <div class = "te">
-                dasd
-                dasdsada
-                adf
+
             </div>
 
             <div class = "menu_bar" id = "menu_bar">
@@ -78,7 +76,7 @@
                 // session_unset();
                 // session_destroy();
             ?>
-            ds
+
         </div>
     </div>
 </body>

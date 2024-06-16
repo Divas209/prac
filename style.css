@@ -29,4 +29,7 @@ input{
     body {
         background-image: url("city2.jpg");
     }
+    .text1{
+        width: 30vw;
+    }
 }
